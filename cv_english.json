@@ -1,34 +1,30 @@
 {
   "basics": {
-    "name": "Miguel Ángel Durán",
-    "label": "Full-Stack developer with more than 15 years of experience & development content creator",
-    "image": "/me.webp",
-    "email": "miduga@gmail.com",
-    "phone": "+34 688888888",
-    "url": "https://midu.dev",
-    "summary": "+15 years of experience as a web developer. Currently I am a content creator and development dommunicator. I live in Barcelona, Spain. I have worked in different environments: from accelerating the development of start-ups to leading teams in multinational companies.",
+    "name": "Mateo Nahuel Matias",
+    "label": "Full Stack Developer with over 2 years of experience.",
+    "image": "/FOTOMIA.jpeg",
+    "email": "mateomatias1304@gmail.com",
+    "phone": "+54 11 49179745",
+    "url": "https://mateomatiasportfolio.netlify.app",
+    "summary": "+2 years of experience as a Web Developer. Currently studying Computer Engineering. Based in Buenos Aires, Argentina. I have worked on various personal projects using technologies and frameworks such as React, Node.js, JavaScript, TypeScript, Java, HTML, and CSS.",
     "location": {
       "address": "",
-      "postalCode": "08820",
-      "city": "el Prat de Llobregat",
-      "countryCode": "ES",
-      "region": "Spain"
+      "postalCode": "",
+      "city": "Buenos Aires",
+      "countryCode": "AR",
+      "region": "Argentina"
     },
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "midudev",
-        "url": "https://linkedin.com/in/midudev"
+        "username": "Mateo Matias",
+        "url": "https://www.linkedin.com/in/mateo-matias-497936270/"
       },
-      {
-        "network": "X",
-        "username": "midudev",
-        "url": "https://x.com/midudev"
-      },
+      
       {
         "network": "GitHub",
-        "username": "midudev",
-        "url": "https://github.com/midudev"
+        "username": "MateoMatias06",
+        "url": "https://github.com/MateoMatias06"
       }
     ]
   },
@@ -78,12 +74,12 @@
     ]
   }],
   "education": [{
-    "institution": "Universitat Oberta de Catalunya",
-    "url": "https://www.uoc.edu/portal/es/index.html",
-    "area": "Software Engineer",
+    "institution": "National University of La Matanza",
+    "url": "https://www.unlam.edu.ar",
+    "area": "Computer Engineer",
     "studyType": "Bachelor",
-    "startDate": "2003-01-01",
-    "endDate": "2009-01-01",
+    "startDate": "2024-01-01",
+    "endDate": null,
     "score": "4.0",
     "courses": [
       "DB1101 - Basic SQL"
@@ -172,13 +168,7 @@
         "Version control", "Collaboration", "Source code", "Git"
       ]
     },
-    {
-      "name": "Next.js",
-      "level": "Advanced",
-      "keywords": [
-        "Web development", "Frontend", "React Framework", "SSR", "Static Generation"
-      ]
-    },
+    
     {
       "name": "React",
       "level": "Advanced",
@@ -210,66 +200,73 @@
   }],
   "projects": [
     {
-      "name": "mars.codes",
+      "name": "Portfolio WEB",
       "isActive": true,
-      "description": "Interactive story with programming challenges to travel to Mars",
+      "description": "Website of my Portfolio created from scratch with Astro and Tailwind.",
       "highlights": [
-        "Choose your own adventure",
-        "In progress"
+        "Portfolio-Dev",
+        "Astro & Tailwind CSS"
       ],
-      "url": "https://mars.codes"
+      "url": "https://mateomatiasportfolio.netlify.app"
     },
     {
-      "name": "AdventJS",
+      "name": "Decoespacios_Arg",
       "isActive": true,
-      "description": "JavaScript programming challenges for every day of December until Christmas",
+      "description": "Website created for @Deco Espacios Arg, a company dedicated to the sale of LED mirrors.",
       "highlights": [
-        "+1 million visits",
-        "Multilanguage",
-        "JavaScript & TypeScript"
+        "Improvements in sales and product advertising.",
+        "Astro & Tailwind CSS"
       ],
-      "url": "https://advent.js/dev"
+      "url": "https://decoespaciosarg.netlify.app"
     },
     {
-      "name": "Codember",
+      "name": "Mate Router",
       "isActive": true,
-      "description": "Interactive programming game with challenges and secrets",
+      "description": "Clone of React Router created from scratch.",
       "highlights": [
-        "+2000 active users",
-        "Challenges for any language"
+        "SPAs (Single Page Applications)",
+        "i18n",
+        "Created with React & JavaScript"
       ],
-      "url": "https://codember.dev"
+      "url": "https://github.com/MateoMatias06/Mate-Router-Clon-de-React-Router-",
+      "github": "https://github.com/MateoMatias06/Mate-Router-Clon-de-React-Router-"
+    },
+    { 
+      "name": "Ecommerce (Prueba técnica)",
+      "isActive": true,
+      "description": "Resolution of a technical test exercise.",
+      "highlights": [
+        "Fetching de datos",
+        "useState, useEffect, useContext, etc",
+        "React & JavaScript"
+      ],
+      "url": "https://ecommerce-mateomatias.netlify.app",
+      "github": "https://github.com/MateoMatias06/Ecommerce-PruebaTecnica"
     },
     {
-      "name": "codi.link",
+      "name": "Users List (Technical Test)",
       "isActive": true,
-      "description": "Playground of HTML, CSS and JavaScript code for sharing",
+      "description": "Resolution of a technical test exercise.",
       "highlights": [
-        "100k monthly visit",
-        "Developed by the community"
+        "Fetching de datos",
+        "Filters",
+        "React & TypeScript"
       ],
-      "url": "https://codi.link",
-      "github": "https://github.com/midudev/codi.link"
+      "url": "https://mateomatias-tspruebatecnica.netlify.app",
+      "github": "https://github.com/MateoMatias06/TypeScript-PruebaTecnica"
     },
     {
-      "name": "Pruebas Técnicas",
+      "name": "Movie Searcher with React",
       "isActive": true,
-      "description": "List of technical tests of companies to practice programming",
+      "description": "Created from scratch with React.",
       "highlights": [
-        "100% free",
-        "+500 community solutions"
+        "Fetching de datos",
+        "Filters",
+        "React & JavaScript"
       ],
-      "url": "https://pruebastecnicas.com",
-      "github": "https://github.com/midudev/pruebas-tecnicas"
-    },
-    {
-      "name": "miduConf",
-      "description": "Streaming programming conference for the Spanish-speaking community with top talks",
-      "highlights": [
-        "+15k tickets handed over",
-        "+50k live viewers"
-      ],
-      "url": "https://miduconf.com"
+      "url": "https://mateomatias-bdp-react.netlify.app",
+      "github": "https://github.com/MateoMatias06/Buscador-de-Peliculas-con-React"
     }
   ]
+}
 }
