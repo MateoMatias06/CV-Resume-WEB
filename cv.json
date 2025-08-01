@@ -1,12 +1,13 @@
 {
   "basics": {
     "name": "Mateo Nahuel Matias",
-    "label": "Full Stack Developer con más de 2 años de experiencia.",
-    "image": "/FOTOMIA.jpeg",
+    "label": "19 years old – Aspiring Computer Engineer and Programmer with 1+ year of hands-on experience.",
+    "image": "/FOTOMIA.jpg",
     "email": "mateomatias1304@gmail.com",
+    "gmail": "mateomatias1304@gmail.com",
     "phone": "+54 11 49179745",
     "url": "https://mateomatiasportfolio.netlify.app",
-    "summary": "+2 años de experiencia como Desarrollador Web. Actualmente estoy estudiando Ingeniería Informática. Vivo en Buenos Aires, Argentina. He trabajado en diferentes proyectos personales usando tecnologias y frameworks tales como React, Node.Js, JavaScript, TypeScript, Java, HTML y CSS.",
+    "summary": "Web Developer with over one year of hands-on experience. Currently pursuing a degree in Computer Engineering and enrolled in a government-sponsored QA Testing program. Fluent in English (B2 level), actively preparing for the Cambridge First Certificate (FCE). Experienced in developing personal projects using modern technologies and frameworks such as React, Node.js, JavaScript, TypeScript, Java, HTML, and CSS.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -75,7 +76,7 @@
   "education": [{
     "institution": "Universidad Nacional de la Matanza",
     "url": "https://www.unlam.edu.ar",
-    "area": "Ingeniero Informático",
+    "area": "Computer Engineering",
     "studyType": "Bachelor",
     "startDate": "2024-01-01",
     "endDate": null,
@@ -133,7 +134,7 @@
       ]
     },
     {
-      "name": "TypeScript",
+      "name": "Typescript",
       "level": "Avanzado",
       "keywords": [
         "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
@@ -201,7 +202,7 @@
     {
       "name": "Portfolio WEB",
       "isActive": true,
-      "description": "Pagina web de mi Portfolio creado desde 0 con Astro y Tailwind",
+      "description": "Website portfolio built from scratch using Astro and Tailwind CSS",
       "highlights": [
         "Portfolio-Dev",
         "Astro & Tailwind CSS"
@@ -211,9 +212,9 @@
     {
       "name": "Decoespacios_Arg",
       "isActive": true,
-      "description": "Pagina web creada para @Deco Espacios Arg, empresa dedicada a la venta de espejos led",
+      "description": "Website developed for @Deco Espacios Arg, a company specializing in the sale of LED mirrors",
       "highlights": [
-        "Mejoras en las ventas y publicidad de los productos",
+        "Improvements in sales and product marketing",
         "Astro & Tailwind CSS"
       ],
       "url": "https://decoespaciosarg.netlify.app"
@@ -221,21 +222,21 @@
     {
       "name": "Mate Router",
       "isActive": true,
-      "description": "Clon de React Router creado desde 0",
+      "description": "React Router clone built from scratch",
       "highlights": [
         "SPAs (Single Page Applications)",
         "i18n",
-        "Creado utilizando React & JavaScript"
+        "Built using React and JavaScript"
       ],
       "url": "https://github.com/MateoMatias06/Mate-Router-Clon-de-React-Router-",
       "github": "https://github.com/MateoMatias06/Mate-Router-Clon-de-React-Router-"
     },
     { 
-      "name": "Ecommerce (Prueba técnica)",
+      "name": "E-commerce (Technical test)",
       "isActive": true,
-      "description": "Resolucion del ejercicio de prueba técnica",
+      "description": "Technical test exercise solution",
       "highlights": [
-        "Fetching de datos",
+        "Data fetching",
         "useState, useEffect, useContext, etc",
         "React & JavaScript"
       ],
@@ -243,11 +244,11 @@
       "github": "https://github.com/MateoMatias06/Ecommerce-PruebaTecnica"
     },
     {
-      "name": "Lista de Usuarios (Prueba técnica)",
+      "name": "User List (Technical test)",
       "isActive": true,
-      "description": "Resolucion del ejercicio de prueba técnica",
+      "description": "Technical test exercise solution",
       "highlights": [
-        "Fetching de datos",
+        "Data fetching",
         "Filters",
         "React & TypeScript"
       ],
@@ -255,11 +256,11 @@
       "github": "https://github.com/MateoMatias06/TypeScript-PruebaTecnica"
     },
     {
-      "name": "Buscador de Peliculas con React",
+      "name": "Movie search application built with React",
       "isActive": true,
-      "description": "Creado desde cero con React.",
+      "description": "Built from scratch using React.",
       "highlights": [
-        "Fetching de datos",
+        "Data fetching",
         "Filters",
         "React & JavaScript"
       ],

@@ -9,7 +9,7 @@ import GitHub from "@/icons/GitHub.astro"
 import WorldMap from "@/icons/WorldMap.astro"
 import type { SocialIcon } from "@/types"
 
-const { name, label, image, location, profiles, phone, email } = basics
+const { name, label, image, location, profiles, phone, email, gmail } = basics
 const { city, region } = location
 
 const SOCIAL_ICONS: SocialIcon = {
@@ -21,7 +21,9 @@ const SOCIAL_ICONS: SocialIcon = {
 const linkedInfo = profiles.find(({ network }) => network === "LinkedIn")
 const linkedUrl = linkedInfo?.url
 
-const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
+
+const cleanGmail = gmail?.replace(/^mailto:/, "")
+const printInfo = [phone, cleanGmail].filter(Boolean).join("  •  ")
 ---
 
 <Section>
@@ -34,7 +36,9 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
         {city}, {region}
       </span>
       <footer class="print">
-        {printInfo}
+        <span class="anashe">{phone}    •    <a href="https://mail.google.com/mail/u/0/?to=mateomatias1304@gmail.com&fs=1&tf=cm" target="_blank"
+              rel="noopener noreferrer"> {cleanGmail}</a> </span>
+
       </footer>
       <footer class="no-print">
         {
@@ -112,6 +116,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
     text-wrap: balance;
   }
 
+
   img {
     aspect-ratio: 1 / 1;
     object-fit: cover;
@@ -129,8 +134,8 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
   }
 
   footer {
-    color: #555;
-    font-size: 0.65rem;
+    color: black;
+    font-size: 1rem;
     display: flex;
     gap: 4px;
     margin-top: 8px;
@@ -180,4 +185,37 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
       margin: 0 auto;
     }
   }
+
+  @media print {
+
+    .anashe {
+      color: black;
+    }
+
+    footer {
+    color: black;
+    font-size: 1rem;
+    display: flex;
+    gap: 4px;
+    margin-top: 8px;
+  }
+  
+    footer a {
+      color: black;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border: none;
+      padding: 0;
+      height: auto;
+      width: auto;
+      border-radius: 0;
+    }
+
+    footer a:hover {
+      background: transparent;
+    }
+  }
+
+  
 </style>
